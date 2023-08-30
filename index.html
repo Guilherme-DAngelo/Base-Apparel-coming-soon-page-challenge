@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Mentor - Base Apparel coming soon page</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./src/imagens/favicon-32x32.png" />
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/variables.css" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./src/css/responsive.css" />
+  </head>
+  <body>
+    <main class="page-wrap">
+      <div class="coming-soon">
+        <a href="#" class="top-logo">
+          <img src="src/imagens/logo.svg" alt="Base Apparel logo" />
+        </a>
+
+        <img src="./src/imagens/hero-mobile.jpg" alt="mobile lady from the company" class="mobile-img" />
+
+        <div class="info-section">
+          <h2><span>We're</span> <br />coming soon</h2>
+          <p>Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.</p>
+        </div>
+
+        <form action="" method="get" name="get-email" class="email-input" id="getMailForm">
+          <input type="email" name="get-email" id="emailField" class="emailField email-working" placeholder="Email Address" />
+
+          <button type="submit" name="get-email" id="btn-submit" class="btn-submit">
+            <img src="src/imagens/icon-arrow.svg" alt="submit email icon" />
+          </button>
+
+          <img class="error-icon hide" id="error-icon" src="src/imagens/icon-error.svg" alt="email error icon" />
+          <p class="error-alert hide" id="error-alert">Please provide a valid email</p>
+
+          <p class="thanks hide" id="thanks-item">
+            THANK YOU!
+          </p>
+        </form>
+      </div>
+
+      <div class="img-wrap">
+        <img src="./src/imagens/hero-desktop.jpg" alt="lady from the company" />
+      </div>
+    </main>
+
+    <script src="./src/javascript/index.js"></script>
+  </body>
+</html>
